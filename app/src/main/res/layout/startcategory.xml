@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200">
+
+    <Button
+        android:id="@+id/cat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="200dp"
+        android:background="#FFFFFF"
+        android:text="scince"
+        android:textColorHighlight="#303F9F"
+        android:textSize="30dp"
+        app:backgroundTint="#880E4F"
+        app:icon="@android:drawable/btn_star"
+        app:iconTint="#F57F17" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#FBC02D"
+        android:gravity="center"
+        android:text="sucessfully login...hello"
+        android:textColor="#7B1FA2"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/qua"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat"
+        android:layout_marginTop="20dp"
+        android:text="general information"
+        android:textSize="25dp"
+        app:backgroundTint="#004D40"
+        app:icon="@android:drawable/ic_menu_mapmode"
+        app:iconSize="40dp"
+        app:iconTint="#F57F17" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat"
+        android:layout_marginTop="125dp"
+        android:text="math"
+        android:textSize="30dp"
+        app:backgroundTint="#4A148C"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:iconTint="#E6FF00" />
+
+    <Button
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:text="LOGOUT"
+        app:backgroundTint="#D32F2F" />
+</RelativeLayout>

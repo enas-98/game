@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200">
+
+    <Button
+        android:id="@+id/cat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="200dp"
+        android:text="add category"
+        android:textColorHighlight="#303F9F"
+        android:textSize="30dp"
+        app:backgroundTint="#00796B" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#FBC02D"
+        android:gravity="center"
+        android:text="welcome admin "
+        android:textColor="#7B1FA2"
+        android:textSize="49dp" />
+
+    <Button
+        android:id="@+id/qua"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat"
+        android:layout_marginTop="20dp"
+        android:text="add quastion"
+        android:textSize="40dp"
+        app:backgroundTint="#C2185B" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat"
+        android:layout_marginTop="125dp"
+        android:text="view all quastion "
+        android:textSize="30dp"
+        app:backgroundTint="#0288D1" />
+
+    <Button
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:text="LOGOUT"
+        app:backgroundTint="#D32F2F" />
+</RelativeLayout>

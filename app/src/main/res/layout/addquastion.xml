@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:text="add quastion please..."
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter quastion"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editName"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/op1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter option1"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/op2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter option2"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/op3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter option3"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/cat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter category"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/ans"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter answer"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/qua"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="450dp"
+        android:text="add quastion "
+        app:backgroundTint="#E65100" />
+
+</RelativeLayout>

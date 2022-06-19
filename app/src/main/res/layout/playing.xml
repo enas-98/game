@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200">
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#FBC02D"
+        android:gravity="center"
+        android:text="score"
+        android:textColor="#7B1FA2"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#FCBD86"
+        android:gravity="center"
+        android:text="quastion"
+        android:textColor="#7B1FA2"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="240dp"
+        android:background="#FFFFFF"
+        android:onClick="onClick"
+        android:textColorHighlight="#303F9F"
+        android:textSize="30dp"
+        app:backgroundTint="#B71C1C"
+        app:icon="@android:drawable/btn_star"
+        app:iconTint="#F57F17" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="300dp"
+        android:background="#FFFFFF"
+        android:onClick="onClick"
+        android:textColorHighlight="#303F9F"
+        android:textSize="30dp"
+        app:backgroundTint="#880E4F"
+        app:icon="@android:drawable/btn_star"
+        app:iconTint="#F57F17" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="350dp"
+        android:background="#FFFFFF"
+        android:onClick="onClick"
+        android:textColorHighlight="#303F9F"
+        android:textSize="30dp"
+        app:backgroundTint="#4A148C"
+        app:icon="@android:drawable/btn_star"
+        app:iconTint="#F57F17" />
+
+    <Button
+        android:id="@+id/choice4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="400dp"
+        android:background="#FFFFFF"
+        android:onClick="onClick"
+        android:textColorHighlight="#303F9F"
+        android:textSize="30dp"
+        app:backgroundTint="#FF6F00"
+        app:icon="@android:drawable/btn_star"
+        app:iconTint="#F57F17" />
+</RelativeLayout>
